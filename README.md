@@ -1,4 +1,4 @@
-# BOO Backend (FastAPI + SQLite)
+# BOO 키우기
 
 ## Run
 ```bash
