@@ -4,11 +4,12 @@
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install -e .[dev]
+pip install -e ".[dev]"
 cp .env.example .env
 # if app.db already exists from old local runs: rm app.db
 alembic upgrade head
 uvicorn app.main:app --reload
+http://127.0.0.1:8000/docs
 ```
 
 ## Key APIs
