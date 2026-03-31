@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.DS_Store
+app.db
+migration_check.db
+boo_backend.egg-info/
+*.pyc
