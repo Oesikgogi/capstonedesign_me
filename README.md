@@ -23,3 +23,5 @@ http://127.0.0.1:8000/docs
 - `GET /meals/availability`
 - `POST /meals/feed`
 - `GET /boo/state`
+
+`https://capstonedesign-eight.vercel.app/docs`
